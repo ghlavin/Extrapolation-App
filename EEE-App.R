@@ -151,7 +151,7 @@ ui <- navbarPage(
         helpText("5) Set the power of the paediatric study.")
       ),
       mainPanel(tabsetPanel(
-        id="plottab",
+        id = "plottab",
         tabPanel(
           "Adjusted significance level",
           plotOutput(
